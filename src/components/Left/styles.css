@@ -1,0 +1,9 @@
+#Left{
+    right: 1%;
+    position: fixed;
+    text-align: center;
+    top: 40%;
+    border:1px solid #aaa8a8;
+    width: 10%;
+    height: 20%;
+     }
