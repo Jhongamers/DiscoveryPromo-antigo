@@ -45,7 +45,7 @@
 }
 .price{
   text-align: center;
-  font-size: 14px;
+  font-size: 0.9em;
   margin: 2px 0 10px 0;
   padding: 5px;
 
@@ -69,7 +69,8 @@ margin-left:.5rem;
   .cards {
   
     width: 60%;
-   
+    font-size: 0.7em;
+
   }
 }
 
@@ -78,6 +79,7 @@ margin-left:.5rem;
 
   .cards {
     width: 80%;
+    font-size: 0.7em;
 
   }
 }
