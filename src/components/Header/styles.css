@@ -1,0 +1,72 @@
+header#main-header{
+    background:#6495ed;
+    font-size: 16px;
+}
+
+header#main-header .container{
+    display: flex;
+    align-items:center;
+    margin:auto;
+    width: 100%;
+    max-width: 980px;
+    padding:9px 0;
+  
+}
+header#main-header .icon p{
+    color:#FFF;
+    text-align: center;
+    margin-left:2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    cursor:pointer;
+}
+header#main-header .icon p:hover{
+   color:#e8e6e3;
+}
+header#main-header input{
+    height:48px;
+    padding:1rem;
+    line-height: 20px;
+    flex:1;
+    border:none;
+    border-radius:5px;
+    padding-left: 0.4rem;
+    padding-top:1rem;
+    display: none;
+   
+
+}
+header#main-header a{
+     list-style: none;
+     text-decoration: none;
+     color: #555555;
+}
+
+header#main-header button{
+    padding:0.8rem;
+    border:none;
+    font-weight: bold;
+    border-radius: 5px;
+    background:#2b5db9;
+    line-height: 1.8;
+    color:#FFF;
+    cursor:pointer;
+    margin-left: 0.8rem;
+    display: none;
+  }
+  header#main-header button:hover{
+    background: #FFF;
+    color:#000;
+}
+
+@media(max-width:384px){
+    header#main-header .container{
+        display:inline-flex;
+        align-items:center;
+        margin:auto;
+        width: 100%;
+        max-width: 980px;
+        padding:15px 0;
+      
+    }
+}
