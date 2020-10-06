@@ -49,7 +49,7 @@ export default class Main extends Component{
        <h1>{product.title}</h1>
             </div>
             <div className="price">
-             <h1>R$ {product.price}</h1>
+             <h1>R$a {product.price}</h1>
             </div>
             <div className="store">
             <p>{product.store}</p>
