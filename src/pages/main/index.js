@@ -40,10 +40,10 @@ export default class Main extends Component{
        {products.map(product =>(
 
            
-            <div className="cards">
-               <a href={product.url} target="_blank">
+            <div className="cards" key={product._id}>
+               <a href={product.url} rel="noopener noreferrer" target="_blank">
             <div className="card-image">
-              <img src={product.img}></img>
+              <img  src={product.img} alt={product.title}></img>
             </div>
             <div className="title">
        <h1>{product.title}</h1>
