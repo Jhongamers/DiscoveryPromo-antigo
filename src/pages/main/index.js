@@ -21,7 +21,6 @@ export default class Main extends Component{
      
    };
   
-<<<<<<< HEAD
    prevPage = () =>{
     const {page} = this.state;
     if(page ===1) return;
@@ -60,48 +59,6 @@ export default class Main extends Component{
             <button disabled={page===productInfo.pages} onClick={this.nextPage}>Proxima</button>
         </div>
                    </div>     
-=======
-//    prevPage = () =>{
-//     const {page} = this.state;
-//     if(page ===1) return;
-//     const  PageNumber = page -1;
-//     this.loadProducts(PageNumber);
-//    }
-//    nextPage = () =>{
-//     const {page,productInfo} = this.state;
-//     if(page===productInfo.pages) return;
-//     const pageNumber = page +1;
-//     this.loadProducts(pageNumber);
-//    }
-    render(){
-        const {products} = this.state;
-      return  (
-        <div className="card">
-       {products.map(product =>(
-
-           
-            <div className="cards" key={product._id}>
-               <a href={product.url} rel="noopener noreferrer" target="_blank">
-            <div className="card-image">
-              <img  src={product.img} alt={product.title}></img>
-            </div>
-            <div className="title">
-       <h1>{product.title}</h1>
-            </div>
-            <div className="price">
-             <h1>R${product.price}</h1>
-            </div>
-            <div className="store">
-            <p>{product.store}</p>
-              </div>
-              </a>
-          </div>
-          
-        
-            ))}
-            </div>
-     
->>>>>>> 96b1a2eac4d9853d58b7f4a519d2832144525494
       );
     }
 }
