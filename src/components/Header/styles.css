@@ -1,5 +1,4 @@
 header#main-header{
-<<<<<<< HEAD
     width: 100%;
     height:10vh;
    /* background:#6495ED; */
@@ -43,78 +42,3 @@ header#main-header .searchbar button{
   color:#FFF;
   cursor:pointer;
 }
-=======
-    background:#6495ed;
-    font-size: 16px;
-    
-}
-
-header#main-header .container{
-    display: flex;
-    align-items:center;
-    margin:auto;
-    width: 100%;
-    max-width: 980px;
-    position: fixed;
-}
- .icon p{
-    color:#FFF;
-    text-align: center;
-    margin: auto;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    font-size: 2.5rem;
-    font-weight: bold;
-    cursor:pointer;
-}
-header#main-header .icon p:hover{
-   color:#e8e6e3;
-}
-header#main-header input{
-    height:48px;
-    padding:1rem;
-    line-height: 20px;
-    flex:1;
-    border:none;
-    border-radius:5px;
-    padding-left: 0.4rem;
-    padding-top:1rem;
-    display: none;
-   
-
-}
-header#main-header a{
-     list-style: none;
-     text-decoration: none;
-     color: #555555;
-}
-
-header#main-header button{
-    padding:0.8rem;
-    border:none;
-    font-weight: bold;
-    border-radius: 5px;
-    background:#2b5db9;
-    line-height: 1.8;
-    color:#FFF;
-    cursor:pointer;
-    margin-left: 0.8rem;
-    display: none;
-  }
-  header#main-header button:hover{
-    background: #FFF;
-    color:#000;
-}
-
-@media(max-width:384px){
-    header#main-header .container{
-        display:inline-flex;
-        align-items:center;
-        margin:auto;
-        width: 100%;
-        max-width: 980px;
-        padding:15px 0;
-      
-    }
-}
->>>>>>> 96b1a2eac4d9853d58b7f4a519d2832144525494
