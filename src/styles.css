@@ -5,7 +5,14 @@
     box-sizing: border-box;
 }
 body{
+<<<<<<< HEAD
     font-family: Arial, Helvetica, sans-serif;
     background:#dad5d5d0;
     color:#333;
+=======
+      font-family:Arial, Helvetica, sans-serif;
+      background: #eedfcc;
+      color: #555555;
+      font-size: 14px;
+>>>>>>> 96b1a2eac4d9853d58b7f4a519d2832144525494
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .main .products{
     max-width: 700px;
     display: flex;
@@ -44,4 +45,93 @@
 
 .main .actions button:hover{
     opacity: 0.7;
+=======
+.card{
+ 
+  display:grid;
+  grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    margin:auto;
+    margin-top: 1rem;
+    width: 60%;
+    
+}
+.cards:hover{
+  transform: translate(0,-5%);
+}
+.cards{
+  
+  width:90%;
+  cursor:pointer;
+  background:#fff;
+ border-radius: 10px;
+ border:1px solid #ccc;
+  margin-bottom: 50px;
+  transition: 0.3s; 
+}
+.card-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid rgb(167, 164, 164);
+  height: 170px;
+  max-height: 100%;
+}
+.card-image img{
+  width:120px;
+  max-width:70%;
+
+}
+
+.title h1{
+  flex:1;
+  padding: 10px 0;
+
+  margin-top:0.5rem;
+  text-align: center;
+  font-size:0.9em;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  
+}
+.price{
+  text-align: center;
+  font-size: 0.9em;
+  margin: 2px 0 10px 0;
+  padding: 5px;
+
+}
+.title{
+margin-left:.5rem;
+}
+.store p{
+ text-align:center;
+  font-size: 1.3rem;
+  color:rgb(204, 66, 66);
+  padding-bottom: 1rem;
+  
+}
+.card a{
+  list-style: none;
+  text-decoration: none;
+  color: #555555;
+}
+@media screen and (max-width: 1000px) {
+  .cards {
+  
+    width: 60%;
+    font-size: 0.7em;
+
+  }
+}
+
+@media screen and (max-width: 620px) {
+ 
+
+  .cards {
+    width: 80%;
+    font-size: 0.7em;
+
+  }
+>>>>>>> 96b1a2eac4d9853d58b7f4a519d2832144525494
 }
